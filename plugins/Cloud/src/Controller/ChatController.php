@@ -32,11 +32,14 @@ class ChatController extends AppController
         $output = shell_exec("python3 -m wordcloud \
             --text $txt_path/chat.txt \
             --stopwords $config_path/stopwords/stopwords-pt-br.txt \
+            --relative_scaling 0 \
             --imagefile $img_path/chat.png \
             --background white \
             --fontfile $config_path/fonts/Pacifico.ttf \
             --width=1024 \
             --height=720  2>&1"
         );
+
+        debug($output);
     }
 }
