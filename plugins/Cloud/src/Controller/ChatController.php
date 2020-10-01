@@ -39,7 +39,5 @@ class ChatController extends AppController
             --width=1024 \
             --height=720  2>&1"
         );
-
-        debug($output);
     }
 }
