@@ -10,3 +10,6 @@
 
 <div id="demo"/>
 
+<a download="nuvem-de-palavras-chat.jpg" href="/img/cloud/chat.png" title="Download">
+    <img alt="Baixar Nuvem de Palavras" src="/img/download.png">
+</a>
