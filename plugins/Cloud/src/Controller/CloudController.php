@@ -10,6 +10,7 @@ class CloudController extends AppController
         $config_path = ROOT . '/plugins/Cloud/config/';
         $txt_path = ROOT . '/tmp';
         $img_path = ROOT . '/webroot/img/cloud';
+        
         $output = shell_exec("python3 -m wordcloud \
             --text $txt_path/projeto-inter-regionais.txt \
             --stopwords $config_path/stopwords/stopwords-pt-br.txt \
