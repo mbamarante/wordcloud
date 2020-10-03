@@ -8,6 +8,8 @@
 
 </style>
 
+<head><title>Nuvem de Palavras</title></head>
+
 <div id="demo"/>
 
 <a download="nuvem-de-palavras-chat.jpg" href="/img/cloud/chat.png" title="Download">
