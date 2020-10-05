@@ -3,7 +3,8 @@
 <?php
 
     foreach($groups as $gk => $gv) {
-        echo "GRUPO $gk:<BR>";
+        $link = "<a href=\"http://".$class ."grupo". $gk ."treinamentopfle.fergs.org.br" . "\">" .$class ."grupo". $gk ."treinamentopfle.fergs.org.br</a>";
+        echo "GRUPO $gk - $link:<BR>";
         foreach($gv as $mk => $mv) {
             echo "- $mv<BR>";
         }
