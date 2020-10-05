@@ -28,14 +28,16 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/",
-            "Cloud\\": "plugins/Cloud/src/"
+            "Cloud\\": "plugins/Cloud/src/",
+            "Groups\\": "plugins/Groups/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "App\\Test\\": "tests/",
             "Cake\\Test\\": "vendor/cakephp/cakephp/tests/",
-            "Cloud\\Test\\": "plugins/Cloud/tests/"
+            "Cloud\\Test\\": "plugins/Cloud/tests/",
+            "Groups\\Test\\": "plugins/Groups/tests/"
         }
     },
     "scripts": {

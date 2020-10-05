@@ -14,7 +14,7 @@
  * @var \App\View\AppView $this
  */
 
-$cakeDescription = 'Nuvem de Palavras';
+$cakeDescription = 'PFLE';
 ?>
 <!DOCTYPE html>
 <html>
@@ -38,7 +38,7 @@ $cakeDescription = 'Nuvem de Palavras';
 <body>
     <nav class="top-nav">
         <div class="top-nav-title">
-            <a href="<?= $this->Url->build('/cloud/cloud') ?>"><span>Gerador de Nuvem de Palavras</span></a>
+            <span>PFLE Fergs</span>
         </div>
     </nav>
     <main class="main">

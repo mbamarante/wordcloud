@@ -41,6 +41,8 @@ class Application extends BaseApplication
      */
     public function bootstrap(): void
     {
+        $this->addPlugin('Groups');
+
         $this->addPlugin('Cloud');
 
         // Call parent to load bootstrap from files.
