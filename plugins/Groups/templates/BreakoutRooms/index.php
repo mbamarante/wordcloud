@@ -19,12 +19,14 @@ textarea {
                     echo $this->Form->label('Turma');
                     if ($class) {
                         echo $this->Form->select('class', [
+                            'geral' => 'Geral',
                             'turma1' => 'Turma 1',
                             'turma2' => 'Turma 2',
                             'turma3' => 'Turma 3',
                         ], ['default' => "turma$class"]);
                     } else {
                         echo $this->Form->select('class', [
+                            'geral' => 'Geral',
                             'turma1' => 'Turma 1',
                             'turma2' => 'Turma 2',
                             'turma3' => 'Turma 3',

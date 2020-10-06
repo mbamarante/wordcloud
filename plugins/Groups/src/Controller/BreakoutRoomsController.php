@@ -39,8 +39,6 @@ class BreakoutRoomsController extends AppController
                     } 
                 }
             }
-            
-            // exit();
 
             $groups_count = $this->request->getData('count');
             $data = $this->request->getData('chat');
